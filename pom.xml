@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example</groupId>
-  <artifactId>my-java-app</artifactId>
+  <artifactId>MyJavaApp</artifactId>
   <version>1.0</version>
   <packaging>war</packaging>
 
@@ -20,15 +20,5 @@
 
   <build>
     <finalName>ROOT</finalName>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-war-plugin</artifactId>
-        <version>3.3.2</version>
-        <configuration>
-          <warSourceDirectory>WebContent</warSourceDirectory>
-        </configuration>
-      </plugin>
-    </plugins>
   </build>
 </project>
